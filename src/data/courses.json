@@ -1,0 +1,765 @@
+{
+    "BSBE": {
+      "1": [
+        { "code": "CH101", "name": "Chemistry", "credits": 8 },
+        { "code": "CH110", "name": "Chemistry Laboratory", "credits": 3 },
+        { "code": "EE101", "name": "Basic Electronics", "credits": 8 },
+        { "code": "MA101", "name": "Mathematics - I", "credits": 8 },
+        { "code": "CE101", "name": "Engineering Drawing", "credits": 7 },
+        { "code": "PH101", "name": "Physics - I", "credits": 6 },
+        { "code": "PH110/ME110", "name": "Physics Laboratory / Workshop", "credits": 3 },
+        { "code": "HS101", "name": "English Communication", "credits": 2 }
+      ],
+      "2": [
+        { "code": "BT101", "name": "Introductory Biology", "credits": 6 },
+        { "code": "CS101", "name": "Introduction to Computing", "credits": 6 },
+        { "code": "CS110", "name": "Computing Laboratory", "credits": 3 },
+        { "code": "EE102", "name": "Basic Electronics Laboratory", "credits": 3 },
+        { "code": "MA102", "name": "Mathematics - II", "credits": 8 },
+        { "code": "ME101", "name": "Engineering Mechanics", "credits": 8 },
+        { "code": "PH102", "name": "Physics - II", "credits": 6 },
+        { "code": "ME110/PH110", "name": "Workshop / Physics Laboratory", "credits": 3 }
+      ],
+      "3": [
+        { "code": "MA201", "name": "Mathematics - III", "credits": 8 },
+        { "code": "BT201", "name": "Biochemical Process Calculations", "credits": 6 },
+        { "code": "BT202", "name": "Bio-thermodynamics", "credits": 6 },
+        { "code": "BT203", "name": "Biochemistry", "credits": 6 },
+        { "code": "BT204", "name": "Genetics", "credits": 6 },
+        { "code": "BT205", "name": "Cell and Molecular Biology", "credits": 6 }
+      ],
+      "4": [
+        { "code": "BT206", "name": "Microbiology", "credits": 6 },
+        { "code": "BT207", "name": "Genetic Engineering", "credits": 6 },
+        { "code": "BT208", "name": "Transport Phenomena in Bioprocesses", "credits": 8 },
+        { "code": "BT209", "name": "Bio-reaction Engineering", "credits": 6 },
+        { "code": "BT211", "name": "Basic Biotechnology Laboratory", "credits": 3 },
+        { "code": "HS1xx", "name": "HSS Elective - I Level-I", "credits": 6 },
+        { "code": "HS200", "name": "Sustainable Development Goals", "credits": 2 }
+      ],
+      "5": [
+        { "code": "BT301", "name": "Biophysics", "credits": 6 },
+        { "code": "BT302", "name": "Bioinformatics", "credits": 6 },
+        { "code": "BT303", "name": "Biochemical Engineering", "credits": 6 },
+        { "code": "BT304", "name": "Immunology", "credits": 6 },
+        { "code": "BT311", "name": "Biochemical Engineering Laboratory", "credits": 3 },
+        { "code": "BT312", "name": "Analytical Biotechnology Laboratory", "credits": 3 },
+        { "code": "HS1xx", "name": "HSS Elective - II Level-I", "credits": 6 },
+        { "code": "CExxx", "name": "Open Elective - I", "credits": 6 }
+      ],
+      "6": [
+        { "code": "BT305", "name": "Computational Biology", "credits": 6 },
+        { "code": "BT306", "name": "Bio-separation Engineering", "credits": 6 },
+        { "code": "BT307", "name": "Biological Data Analysis", "credits": 6 },
+        { "code": "BT308", "name": "Bioengineering", "credits": 6 },
+        { "code": "BT309", "name": "Biotechnology Laboratory", "credits": 3 },
+        { "code": "BT3xx", "name": "Departmental Elective - I", "credits": 6 }
+      ],
+      "7": [
+        { "code": "BT4xx", "name": "Departmental Elective - II", "credits": 6 },
+        { "code": "BT4xx", "name": "Departmental Elective - III", "credits": 6 },
+        { "code": "BT4xx", "name": "Departmental Elective - IV", "credits": 6 },
+        { "code": "OExxx", "name": "Open Elective - II", "credits": 6 },
+        { "code": "BT401", "name": "B Tech Project - I", "credits": 12 },
+        { "code": "HS2xx", "name": "HSS Elective - I Level-II", "credits": 6 }
+      ],
+      "8": [
+        { "code": "BT4xx", "name": "Departmental Elective - V", "credits": 6 },
+        { "code": "BT4xx", "name": "Departmental Elective - VI", "credits": 6 },
+        { "code": "BT4xx", "name": "Departmental Elective - VII", "credits": 6 },
+        { "code": "BT402", "name": "B Tech Project - II", "credits": 12 },
+        { "code": "OExxx", "name": "Open Elective - III", "credits": 6 },
+        { "code": "HS2xx", "name": "HSS Elective - II Level-II", "credits": 6 }
+      ]
+    },
+  
+    "CE": {
+      "1": [
+        { "code": "CH101", "name": "Chemistry", "credits": 8 },
+        { "code": "CH110", "name": "Chemistry Laboratory", "credits": 3 },
+        { "code": "EE101", "name": "Basic Electronics", "credits": 8 },
+        { "code": "MA101", "name": "Mathematics - I", "credits": 8 },
+        { "code": "CE101", "name": "Engineering Drawing", "credits": 7 },
+        { "code": "PH101", "name": "Physics - I", "credits": 6 },
+        { "code": "PH110/ME110", "name": "Physics Laboratory / Workshop", "credits": 3 },
+        { "code": "HS101", "name": "English Communication", "credits": 2 }
+      ],
+      "2": [
+        { "code": "BT101", "name": "Introductory Biology", "credits": 6 },
+        { "code": "CS101", "name": "Introduction to Computing", "credits": 6 },
+        { "code": "CS110", "name": "Computing Laboratory", "credits": 3 },
+        { "code": "EE102", "name": "Basic Electronics Laboratory", "credits": 3 },
+        { "code": "MA102", "name": "Mathematics - II", "credits": 8 },
+        { "code": "ME101", "name": "Engineering Mechanics", "credits": 8 },
+        { "code": "PH102", "name": "Physics - II", "credits": 6 },
+        { "code": "ME110/PH110", "name": "Workshop / Physics Laboratory", "credits": 3 }
+      ],
+      "3": [
+        { "code": "MA201", "name": "Mathematics - III", "credits": 8 },
+        { "code": "CE202", "name": "Solid Mechanics", "credits": 6 },
+        { "code": "CE211", "name": "Civil Engineering Materials", "credits": 6 },
+        { "code": "CE214", "name": "Civil Engineering Materials Laboratory", "credits": 3 },
+        { "code": "CE203", "name": "Fluid Mechanics", "credits": 6 },
+        { "code": "CE214L", "name": "Fluid Mechanics Laboratory", "credits": 3 },
+        { "code": "CE207", "name": "Engineering Geology", "credits": 6 },
+        { "code": "CE208", "name": "Engineering Geology Laboratory", "credits": 3 }
+      ],
+      "4": [
+        { "code": "CE205", "name": "Structural Analysis I", "credits": 6 },
+        { "code": "CE210", "name": "Surveying", "credits": 6 },
+        { "code": "CE210L", "name": "Surveying Laboratory", "credits": 3 },
+        { "code": "CE215", "name": "Soil Mechanics I", "credits": 6 },
+        { "code": "CE216", "name": "Soil Mechanics Laboratory I", "credits": 3 },
+        { "code": "CE222", "name": "Environmental Engineering I", "credits": 6 },
+        { "code": "CE223", "name": "Environmental Engineering Laboratory I", "credits": 3 },
+        { "code": "CE221", "name": "Hydraulics and Hydraulic Structures", "credits": 6 },
+        { "code": "CE221L", "name": "Hydraulics and Hydraulic Structures Laboratory", "credits": 3 },
+        { "code": "HS1xx", "name": "HSS Elective - I Level-I", "credits": 6 }
+      ],
+      "5": [
+        { "code": "CE302", "name": "Structural Analysis II", "credits": 6 },
+        { "code": "CE305", "name": "Reinforced Concrete Design", "credits": 6 },
+        { "code": "CE318", "name": "Geotechnical Engineering II", "credits": 6 },
+        { "code": "CE313", "name": "Geotechnical Engineering II Laboratory", "credits": 3 },
+        { "code": "CE314", "name": "Transportation Engineering I", "credits": 6 },
+        { "code": "CE314L", "name": "Transportation Engineering I Laboratory", "credits": 3 },
+        { "code": "CE316", "name": "Environmental Engineering II", "credits": 6 },
+        { "code": "CExxx", "name": "Open Elective I", "credits": 6 },
+        { "code": "HS1xx", "name": "HSS Elective - II Level-I", "credits": 6 }
+      ],
+      "6": [
+        { "code": "CE308", "name": "Construction Technology and Management", "credits": 6 },
+        { "code": "CE309", "name": "Design of Steel Structure", "credits": 6 },
+        { "code": "CE320", "name": "Transportation Engineering II", "credits": 6 },
+        { "code": "CE323", "name": "Transportation Engineering II Laboratory", "credits": 3 },
+        { "code": "CE322", "name": "Engineering Hydrology", "credits": 6 },
+        { "code": "CE324", "name": "Mathematical Concepts in Civil Engineering", "credits": 6 },
+        { "code": "CExxx", "name": "Open Elective - II", "credits": 6 },
+        { "code": "HS200", "name": "Sustainable Development Goals", "credits": 2 }
+      ],
+      "7": [
+        { "code": "CE498", "name": "B Tech Project - I", "credits": 12 },
+        { "code": "CE402", "name": "Design Project", "credits": 6 },
+        { "code": "CE4xx", "name": "Departmental Elective III", "credits": 6 },
+        { "code": "CE4xx", "name": "Departmental Elective IV", "credits": 6 },
+        { "code": "CE4xx", "name": "Departmental Elective V", "credits": 6 },
+        { "code": "OExxx", "name": "Open Elective - III", "credits": 6 },
+        { "code": "HS2xx", "name": "HSS Elective - I Level-II", "credits": 6 }
+      ],
+      "8": [
+        { "code": "CE4xx", "name": "Departmental Elective - VI", "credits": 6 },
+        { "code": "CE4xx", "name": "Departmental Elective - VII", "credits": 6 },
+        { "code": "CE4xx", "name": "Departmental Elective - VIII", "credits": 6 },
+        { "code": "CE499", "name": "B Tech Project - II", "credits": 12 },
+        { "code": "CExxx", "name": "General Elective - II", "credits": 6 },
+        { "code": "HS2xx", "name": "HSS Elective - II Level-II", "credits": 6 }
+      ]
+    },
+  
+    "CSE": {
+      "1": [
+        { "code": "CH101", "name": "Chemistry", "credits": 8 },
+        { "code": "CH110", "name": "Chemistry Laboratory", "credits": 3 },
+        { "code": "EE101", "name": "Basic Electronics", "credits": 8 },
+        { "code": "MA101", "name": "Mathematics - I", "credits": 8 },
+        { "code": "CE101", "name": "Engineering Drawing", "credits": 7 },
+        { "code": "PH101", "name": "Physics - I", "credits": 6 },
+        { "code": "PH110/ME110", "name": "Physics Laboratory / Workshop", "credits": 3 },
+        { "code": "HS101", "name": "English Communication", "credits": 2 }
+      ],
+      "2": [
+        { "code": "BT101", "name": "Introductory Biology", "credits": 6 },
+        { "code": "CS101", "name": "Introduction to Computing", "credits": 6 },
+        { "code": "CS110", "name": "Computing Laboratory", "credits": 3 },
+        { "code": "EE102", "name": "Basic Electronics Laboratory", "credits": 3 },
+        { "code": "MA102", "name": "Mathematics - II", "credits": 8 },
+        { "code": "ME101", "name": "Engineering Mechanics", "credits": 8 },
+        { "code": "PH102", "name": "Physics - II", "credits": 6 },
+        { "code": "ME110/PH110", "name": "Workshop / Physics Laboratory", "credits": 3 }
+      ],
+      "3": [
+        { "code": "MA222", "name": "Elementary Number Theory and Algebra", "credits": 6 },
+        { "code": "MA225", "name": "Probability Theory and Random Processes", "credits": 8 },
+        { "code": "CS201", "name": "Discrete Mathematics", "credits": 6 },
+        { "code": "CS203", "name": "Algorithms and Data Structures", "credits": 6 },
+        { "code": "CS204", "name": "Algorithms and Data Structures Laboratory", "credits": 4 },
+        { "code": "CS221", "name": "Digital Design", "credits": 6 },
+        { "code": "CS242", "name": "System Software Laboratory", "credits": 4 }
+      ],
+      "4": [
+        { "code": "CS205", "name": "Formal Languages, Automata Theory and Computation", "credits": 6 },
+        { "code": "CS207", "name": "Design and Analysis of Algorithms", "credits": 6 },
+        { "code": "CS223", "name": "Computer Architecture and Organization", "credits": 6 },
+        { "code": "CS224", "name": "Hardware Laboratory", "credits": 6 },
+        { "code": "CS245", "name": "Database Management Systems", "credits": 6 },
+        { "code": "CS246", "name": "Database Management Systems Laboratory", "credits": 4 },
+        { "code": "HS1xx", "name": "HSS Elective - I Level-I", "credits": 6 },
+        { "code": "HS200", "name": "Sustainable Development Goals", "credits": 2 }
+      ],
+      "5": [
+        { "code": "MA321", "name": "Optimization", "credits": 6 },
+        { "code": "CS341", "name": "Computer Networks", "credits": 6 },
+        { "code": "CS342", "name": "Computer Networks Laboratory", "credits": 4 },
+        { "code": "CS343", "name": "Operating Systems", "credits": 6 },
+        { "code": "CS344", "name": "Operating Systems Laboratory", "credits": 4 },
+        { "code": "CSxxx", "name": "Departmental Elective - I", "credits": 6 },
+        { "code": "HS1xx", "name": "HSS Elective - II Level-I", "credits": 6 }
+      ],
+      "6": [
+        { "code": "CS345", "name": "Software Engineering", "credits": 4 },
+        { "code": "CS346", "name": "Software Engineering Laboratory", "credits": 3 },
+        { "code": "CS348", "name": "Implementation of Programming Languages Laboratory", "credits": 7 },
+        { "code": "CS361", "name": "Machine Learning", "credits": 6 },
+        { "code": "CSxxx", "name": "Departmental Elective - II", "credits": 6 },
+        { "code": "CSxxx", "name": "Departmental Elective - III", "credits": 6 },
+        { "code": "CSxxx", "name": "Departmental Elective - IV", "credits": 5 }
+      ],
+      "7": [
+        { "code": "OE4xx", "name": "Open Elective", "credits": 6 },
+        { "code": "OExxx/CSxxx", "name": "Open Elective / Departmental Elective - V", "credits": 6 },
+        { "code": "CSxxx", "name": "Departmental Elective - VI", "credits": 6 },
+        { "code": "CSxxx", "name": "Departmental Elective - VII", "credits": 6 },
+        { "code": "CSxxx", "name": "Departmental Elective - VIII", "credits": 6 },
+        { "code": "CS498", "name": "B Tech Project - I", "credits": 12 },
+        { "code": "HS2xx", "name": "HSS Elective - I Level-II", "credits": 6 }
+      ],
+      "8": [
+        { "code": "OExxx", "name": "Open Elective", "credits": 6 },
+        { "code": "OExxx", "name": "Open Elective", "credits": 6 },
+        { "code": "CSxxx", "name": "Departmental Elective - IX", "credits": 6 },
+        { "code": "CSxxx", "name": "Departmental Elective - X", "credits": 6 },
+        { "code": "CSxxx", "name": "Departmental Elective - XI", "credits": 6 },
+        { "code": "CS499", "name": "B Tech Project - II", "credits": 12 },
+        { "code": "HS2xx", "name": "HSS Elective - II Level-II", "credits": 6 }
+      ]
+    },
+  
+    "CST": {
+      "1": [
+        { "code": "CH101", "name": "Chemistry", "credits": 8 },
+        { "code": "CH110", "name": "Chemistry Laboratory", "credits": 3 },
+        { "code": "EE101", "name": "Basic Electronics", "credits": 8 },
+        { "code": "MA101", "name": "Mathematics - I", "credits": 8 },
+        { "code": "CE101", "name": "Engineering Drawing", "credits": 7 },
+        { "code": "PH101", "name": "Physics - I", "credits": 6 },
+        { "code": "PH110/ME110", "name": "Physics Laboratory / Workshop", "credits": 3 },
+        { "code": "HS101", "name": "English Communication", "credits": 2 }
+      ],
+      "2": [
+        { "code": "BT101", "name": "Introductory Biology", "credits": 6 },
+        { "code": "CS101", "name": "Introduction to Computing", "credits": 6 },
+        { "code": "CS110", "name": "Computing Laboratory", "credits": 3 },
+        { "code": "EE102", "name": "Basic Electronics Laboratory", "credits": 3 },
+        { "code": "MA102", "name": "Mathematics - II", "credits": 8 },
+        { "code": "ME101", "name": "Engineering Mechanics", "credits": 8 },
+        { "code": "PH102", "name": "Physics - II", "credits": 6 },
+        { "code": "ME110/PH110", "name": "Workshop / Physics Laboratory", "credits": 3 }
+      ],
+      "3": [
+        { "code": "MA201", "name": "Mathematics - III", "credits": 8 },
+        { "code": "CH212", "name": "Inorganic Chemistry", "credits": 6 },
+        { "code": "CH221", "name": "Organic Chemistry", "credits": 6 },
+        { "code": "CH251", "name": "Introduction to Quantum Chemistry", "credits": 6 },
+        { "code": "CH201", "name": "Chemical Process Calculations", "credits": 6 },
+        { "code": "CL202", "name": "Fluid Mechanics", "credits": 6 }
+      ],
+      "4": [
+        { "code": "CH222", "name": "Applied Organic Chemistry", "credits": 6 },
+        { "code": "CH2xx", "name": "Group Theory", "credits": 6 },
+        { "code": "CH211", "name": "Industrial Chemistry", "credits": 6 },
+        { "code": "CH233", "name": "Spectroscopic Techniques in Chemistry", "credits": 6 },
+        { "code": "CH215", "name": "Chemical Technology Laboratory I", "credits": 3 },
+        { "code": "HS1xx", "name": "HSS Elective - I Level-I", "credits": 6 },
+        { "code": "HS200", "name": "Sustainable Development Goals", "credits": 2 }
+      ],
+      "5": [
+        { "code": "CExxx", "name": "Open Elective - I", "credits": 6 },
+        { "code": "CH302", "name": "Technical Report Presentation", "credits": 3 },
+        { "code": "CH301", "name": "Environmental Chemistry", "credits": 6 },
+        { "code": "CH316", "name": "Frontiers of Coordination Chemistry", "credits": 6 },
+        { "code": "CH314", "name": "Chemical Kinetics and Electrochemistry", "credits": 6 },
+        { "code": "CH314L", "name": "Chemical Technology Laboratory II", "credits": 3 },
+        { "code": "HS1xx", "name": "HSS Elective - II Level-I", "credits": 6 }
+      ],
+      "6": [
+        { "code": "CH332", "name": "Computational Chemistry", "credits": 6 },
+        { "code": "CH353", "name": "Application of Nanomaterials", "credits": 6 },
+        { "code": "CH325", "name": "Polymer Chemistry", "credits": 6 },
+        { "code": "CH334", "name": "Chemical Technology Laboratory III", "credits": 3 },
+        { "code": "OExxx", "name": "Open Elective - II", "credits": 6 },
+        { "code": "CH3xx", "name": "Departmental Elective - I", "credits": 6 }
+      ],
+      "7": [
+        { "code": "CH401", "name": "Modern Chemical Technology", "credits": 6 },
+        { "code": "CH498", "name": "B Tech Project - I", "credits": 12 },
+        { "code": "CH4xx", "name": "Departmental Elective - II", "credits": 6 },
+        { "code": "CH4xx", "name": "Departmental Elective - III", "credits": 6 },
+        { "code": "OExxx", "name": "Open Elective - III", "credits": 6 },
+        { "code": "HS2xx", "name": "HSS Elective - I Level-II", "credits": 6 }
+      ],
+      "8": [
+        { "code": "CH4xx", "name": "Departmental Elective - IV", "credits": 6 },
+        { "code": "CH4xx", "name": "Departmental Elective - V", "credits": 6 },
+        { "code": "CH4xx", "name": "Departmental Elective - VI", "credits": 6 },
+        { "code": "CH499", "name": "B Tech Project - II", "credits": 12 },
+        { "code": "OExxx", "name": "Open Elective - IV", "credits": 6 },
+        { "code": "HS2xx", "name": "HSS Elective - II Level-II", "credits": 6 }
+      ]
+    },
+  
+    "ECE": {
+      "1": [
+        { "code": "CH101", "name": "Chemistry", "credits": 8 },
+        { "code": "CH110", "name": "Chemistry Laboratory", "credits": 3 },
+        { "code": "EE101", "name": "Basic Electronics", "credits": 8 },
+        { "code": "MA101", "name": "Mathematics - I", "credits": 8 },
+        { "code": "ME111", "name": "Engineering Drawing", "credits": 7 },
+        { "code": "PH101", "name": "Physics - I", "credits": 6 },
+        { "code": "PH110/ME110", "name": "Physics Laboratory / Workshop", "credits": 3 },
+        { "code": "HS101", "name": "English Communication", "credits": 2 }
+      ],
+      "2": [
+        { "code": "BT101", "name": "Introductory Biology", "credits": 6 },
+        { "code": "CS101", "name": "Introduction to Computing", "credits": 6 },
+        { "code": "CS110", "name": "Computing Laboratory", "credits": 3 },
+        { "code": "EE102", "name": "Basic Electronics Laboratory", "credits": 3 },
+        { "code": "MA102", "name": "Mathematics - II", "credits": 8 },
+        { "code": "ME101", "name": "Engineering Mechanics", "credits": 8 },
+        { "code": "PH102", "name": "Physics - II", "credits": 6 },
+        { "code": "ME110/PH110", "name": "Workshop / Physics Laboratory", "credits": 3 }
+      ],
+      "3": [
+        { "code": "MA201", "name": "Mathematics - III", "credits": 8 },
+        { "code": "EE203", "name": "Semiconductor Devices", "credits": 6 },
+        { "code": "EE204", "name": "Circuit Theory", "credits": 6 },
+        { "code": "EE210", "name": "Digital Circuits", "credits": 6 },
+        { "code": "EE211", "name": "Digital Circuits Laboratory", "credits": 3 },
+        { "code": "EE220", "name": "Signals and Systems", "credits": 6 }
+      ],
+      "4": [
+        { "code": "EE206", "name": "Analog Circuits", "credits": 6 },
+        { "code": "EE207", "name": "Analog Circuits Laboratory", "credits": 3 },
+        { "code": "EE280", "name": "Probability and Random Processes", "credits": 8 },
+        { "code": "EE230", "name": "Control Systems", "credits": 6 },
+        { "code": "EE252", "name": "Measurement and Instrumentation", "credits": 6 },
+        { "code": "EE253", "name": "Instrumentation Laboratory", "credits": 3 },
+        { "code": "HS1xx", "name": "HSS Elective - I Level-I", "credits": 6 }
+      ],
+      "5": [
+        { "code": "EE312", "name": "Embedded Systems", "credits": 6 },
+        { "code": "EE331", "name": "Digital Signal Processing", "credits": 6 },
+        { "code": "EE333", "name": "Digital Communications", "credits": 6 },
+        { "code": "EE332", "name": "Communication and DSP Laboratory", "credits": 3 },
+        { "code": "EE340", "name": "Computer Networks", "credits": 6 },
+        { "code": "EE351", "name": "Control and Robotics Laboratory", "credits": 3 },
+        { "code": "CExxx", "name": "Open Elective - I", "credits": 6 },
+        { "code": "HS1xx", "name": "HSS Elective - II Level-I", "credits": 6 }
+      ],
+      "6": [
+        { "code": "EE313", "name": "Microelectronics Laboratory", "credits": 3 },
+        { "code": "EE350", "name": "Power Electronics", "credits": 6 },
+        { "code": "EE370", "name": "Electric Power Systems", "credits": 6 },
+        { "code": "EE371", "name": "Advanced Electrical Engineering Laboratory", "credits": 3 },
+        { "code": "EE381", "name": "Electrical Machines Laboratory", "credits": 3 },
+        { "code": "EE35x", "name": "Departmental Elective - III", "credits": 6 },
+        { "code": "EE39x", "name": "Design Laboratory / Department Elective - IV", "credits": 6 },
+        { "code": "EE390", "name": "Data Structures and Algorithms", "credits": 6 },
+        { "code": "OExxx", "name": "Open Elective - II", "credits": 6 },
+        { "code": "HS200", "name": "Sustainable Development Goals", "credits": 2 }
+      ],
+      "7": [
+        { "code": "EE44x", "name": "Departmental Elective - IV", "credits": 6 },
+        { "code": "EE4Ax", "name": "Departmental Elective - V", "credits": 6 },
+        { "code": "EE4Bx", "name": "Departmental Elective - VI", "credits": 6 },
+        { "code": "OExxx", "name": "Open Elective - III", "credits": 6 },
+        { "code": "HS2xx", "name": "HSS Elective - I Level-II", "credits": 6 },
+        { "code": "EE498", "name": "B Tech Project - I", "credits": 12 }
+      ],
+      "8": [
+        { "code": "EE4Cx", "name": "Departmental Elective - VII", "credits": 6 },
+        { "code": "EE4Dx", "name": "Departmental Elective - VIII", "credits": 6 },
+        { "code": "EE4Ex", "name": "Departmental Elective - IX", "credits": 6 },
+        { "code": "EE4Fx", "name": "Departmental Elective - X", "credits": 6 },
+        { "code": "EE4Gx", "name": "Departmental Elective - XI", "credits": 6 },
+        { "code": "HS2xx", "name": "HSS Elective - II Level-II", "credits": 6 },
+        { "code": "EE499", "name": "B Tech Project - II", "credits": 12 }
+      ]
+    },
+  
+    "EEE": {
+      "1": [
+        { "code": "CH101", "name": "Chemistry", "credits": 8 },
+        { "code": "CH110", "name": "Chemistry Laboratory", "credits": 3 },
+        { "code": "EE101", "name": "Basic Electronics", "credits": 8 },
+        { "code": "MA101", "name": "Mathematics - I", "credits": 8 },
+        { "code": "ME111", "name": "Engineering Drawing", "credits": 7 },
+        { "code": "PH101", "name": "Physics - I", "credits": 6 },
+        { "code": "PH110/ME110", "name": "Physics Laboratory / Workshop", "credits": 3 },
+        { "code": "HS101", "name": "English Communication", "credits": 2 }
+      ],
+      "2": [
+        { "code": "BT101", "name": "Introductory Biology", "credits": 6 },
+        { "code": "CS101", "name": "Introduction to Computing", "credits": 6 },
+        { "code": "CS110", "name": "Computing Laboratory", "credits": 3 },
+        { "code": "EE102", "name": "Basic Electronics Laboratory", "credits": 3 },
+        { "code": "MA102", "name": "Mathematics - II", "credits": 8 },
+        { "code": "ME101", "name": "Engineering Mechanics", "credits": 8 },
+        { "code": "PH102", "name": "Physics - II", "credits": 6 },
+        { "code": "ME110/PH110", "name": "Workshop / Physics Laboratory", "credits": 3 }
+      ],
+      "3": [
+        { "code": "MA201", "name": "Mathematics - III", "credits": 8 },
+        { "code": "EE203", "name": "Semiconductor Devices", "credits": 6 },
+        { "code": "EE205", "name": "Principles of Electrical Engineering", "credits": 8 },
+        { "code": "EE210", "name": "Digital Circuits", "credits": 6 },
+        { "code": "EE221", "name": "Digital Circuits Laboratory", "credits": 3 },
+        { "code": "EE220", "name": "Signals and Systems", "credits": 6 }
+      ],
+      "4": [
+        { "code": "EE206", "name": "Analog Circuits", "credits": 6 },
+        { "code": "EE207", "name": "Analog Circuits Laboratory", "credits": 3 },
+        { "code": "EE280", "name": "Probability and Random Processes", "credits": 8 },
+        { "code": "EE230", "name": "Control Systems", "credits": 6 },
+        { "code": "EE252", "name": "Measurement and Instrumentation", "credits": 6 },
+        { "code": "EE253", "name": "Instrumentation Laboratory", "credits": 3 },
+        { "code": "HS1xx", "name": "HSS Elective - I Level-I", "credits": 6 }
+      ],
+      "5": [
+        { "code": "EE312", "name": "Embedded Systems", "credits": 6 },
+        { "code": "EE318", "name": "Electrical Machines", "credits": 8 },
+        { "code": "EE331", "name": "Principles of Communication", "credits": 6 },
+        { "code": "EE341", "name": "Electromagnetic Theory", "credits": 6 },
+        { "code": "EE351", "name": "Control and Robotics Laboratory", "credits": 3 },
+        { "code": "CExxx", "name": "Open Elective - I", "credits": 6 },
+        { "code": "HS1xx", "name": "HSS Elective - II Level-I", "credits": 6 }
+      ],
+      "6": [
+        { "code": "EE350", "name": "Power Electronics", "credits": 6 },
+        { "code": "EE370", "name": "Electric Power Systems", "credits": 6 },
+        { "code": "EE371", "name": "Advanced Electrical Engineering Laboratory", "credits": 3 },
+        { "code": "EE381", "name": "Electrical Machines Laboratory", "credits": 3 },
+        { "code": "EE35x", "name": "Departmental Elective - III", "credits": 6 },
+        { "code": "EE39x", "name": "Design Laboratory / Departmental Elective", "credits": 6 },
+        { "code": "EE390", "name": "Data Structures and Algorithms", "credits": 6 },
+        { "code": "OExxx", "name": "Open Elective - II", "credits": 6 },
+        { "code": "HS200", "name": "Sustainable Development Goals", "credits": 2 }
+      ],
+      "7": [
+        { "code": "EE48x", "name": "Departmental Elective - IV", "credits": 6 },
+        { "code": "EE4Ax", "name": "Departmental Elective - V", "credits": 6 },
+        { "code": "EE4Bx", "name": "Departmental Elective - VI", "credits": 6 },
+        { "code": "OExxx", "name": "Open Elective - III", "credits": 6 },
+        { "code": "HS2xx", "name": "HSS Elective - I Level-II", "credits": 6 },
+        { "code": "EE498", "name": "B Tech Project - I", "credits": 12 }
+      ],
+      "8": [
+        { "code": "EE4Cx", "name": "Departmental Elective - VII", "credits": 6 },
+        { "code": "EE4Dx", "name": "Departmental Elective - VIII", "credits": 6 },
+        { "code": "EE4Ex", "name": "Departmental Elective - IX", "credits": 6 },
+        { "code": "EE4Fx", "name": "Departmental Elective - X", "credits": 6 },
+        { "code": "EE4Gx", "name": "Departmental Elective - XI", "credits": 6 },
+        { "code": "HS2xx", "name": "HSS Elective - II Level-II", "credits": 6 },
+        { "code": "EE499", "name": "B Tech Project - II", "credits": 12 }
+      ]
+    },
+  
+    "EN": {
+      "1": [
+        { "code": "CH101", "name": "Chemistry", "credits": 8 },
+        { "code": "CH110", "name": "Chemistry Laboratory", "credits": 3 },
+        { "code": "EE101", "name": "Basic Electronics", "credits": 8 },
+        { "code": "MA101", "name": "Mathematics - I", "credits": 8 },
+        { "code": "CE101", "name": "Engineering Drawing", "credits": 7 },
+        { "code": "PH101", "name": "Physics - I", "credits": 6 },
+        { "code": "PH110/ME110", "name": "Physics Laboratory / Workshop", "credits": 3 },
+        { "code": "HS101", "name": "English Communication", "credits": 2 }
+      ],
+      "2": [
+        { "code": "BT101", "name": "Introductory Biology", "credits": 6 },
+        { "code": "CS101", "name": "Introduction to Computing", "credits": 6 },
+        { "code": "CS110", "name": "Computing Laboratory", "credits": 3 },
+        { "code": "EE102", "name": "Basic Electronics Laboratory", "credits": 3 },
+        { "code": "MA102", "name": "Mathematics - II", "credits": 8 },
+        { "code": "ME101", "name": "Engineering Mechanics", "credits": 8 },
+        { "code": "PH102", "name": "Physics - II", "credits": 6 },
+        { "code": "ME110/PH110", "name": "Workshop / Physics Laboratory", "credits": 3 }
+      ],
+      "3": [
+        { "code": "MA201", "name": "Mathematics - III", "credits": 8 },
+        { "code": "EN201", "name": "Heat Transfer", "credits": 6 },
+        { "code": "EN202", "name": "Engineering Thermodynamics", "credits": 6 },
+        { "code": "EN203", "name": "Solid and Fluid Mechanics", "credits": 6 },
+        { "code": "EN204", "name": "Fuel, Combustion and Reaction Engineering", "credits": 6 },
+        { "code": "EN205", "name": "Fuel and Combustion Laboratory", "credits": 3 }
+      ],
+      "4": [
+        { "code": "EN207", "name": "Electrical Energy Systems", "credits": 8 },
+        { "code": "EN208", "name": "Biomass, Biofuel and Bio-refinery", "credits": 6 },
+        { "code": "EN209", "name": "Solar Energy Technology", "credits": 6 },
+        { "code": "EN210", "name": "Environmental Studies and Policy", "credits": 6 },
+        { "code": "EN211", "name": "Thermo-fluid and Heat Transfer Laboratory", "credits": 3 },
+        { "code": "HS1xx", "name": "HSS Elective - I Level-I", "credits": 6 },
+        { "code": "HS200", "name": "Sustainable Development Goals", "credits": 2 }
+      ],
+      "5": [
+        { "code": "EN301", "name": "Power Generation and Transmission Systems", "credits": 6 },
+        { "code": "EN302", "name": "Wind, Hydro and OTEC", "credits": 8 },
+        { "code": "EN303", "name": "Hydrogen and Fuel Cell Technology", "credits": 6 },
+        { "code": "EN304", "name": "Energy Storage Systems", "credits": 6 },
+        { "code": "EN305", "name": "Wind and Hydro Energy Laboratory", "credits": 3 },
+        { "code": "EN306", "name": "Energy Systems and Simulation Laboratory", "credits": 3 },
+        { "code": "CExxx", "name": "Open Elective - I", "credits": 6 },
+        { "code": "HS1xx", "name": "HSS Elective - II Level-I", "credits": 6 }
+      ],
+      "6": [
+        { "code": "EN307", "name": "Energy Economics, Planning, Management and Auditing", "credits": 8 },
+        { "code": "EN308", "name": "Control and Instrumentation for Energy Systems", "credits": 6 },
+        { "code": "EN309", "name": "Energy Conservation and Waste Heat Recovery", "credits": 6 },
+        { "code": "EN310", "name": "Energy Materials and Devices", "credits": 6 },
+        { "code": "EN311", "name": "Departmental Elective - I", "credits": 6 },
+        { "code": "EN312", "name": "Community Engagement and Entrepreneurship Program", "credits": 3 },
+        { "code": "EN313", "name": "Energy Materials and Device Fabrication Laboratory", "credits": 5 },
+        { "code": "OExxx", "name": "Open Elective - II", "credits": 6 }
+      ],
+      "7": [
+        { "code": "EN403", "name": "Departmental Elective - II", "credits": 6 },
+        { "code": "EN404", "name": "Departmental Elective - III", "credits": 6 },
+        { "code": "EN402", "name": "Energy Entrepreneurship Program I", "credits": 2 },
+        { "code": "OExxx", "name": "Open Elective - III", "credits": 6 },
+        { "code": "HS2xx", "name": "HSS Elective - I Level-II", "credits": 6 },
+        { "code": "EN498", "name": "B Tech Project - I", "credits": 12 }
+      ],
+      "8": [
+        { "code": "EN4xx", "name": "Departmental Elective - IV", "credits": 6 },
+        { "code": "EN4xxA", "name": "Departmental Elective - V", "credits": 6 },
+        { "code": "EN402B", "name": "Energy Entrepreneurship Program II", "credits": 2 },
+        { "code": "OExxx", "name": "Open Elective - IV", "credits": 6 },
+        { "code": "HS2xx", "name": "HSS Elective - II Level-II", "credits": 6 },
+        { "code": "EN499", "name": "B Tech Project - II", "credits": 12 }
+      ]
+    },
+  
+    "EP": {
+      "1": [
+        { "code": "CH101", "name": "Chemistry", "credits": 8 },
+        { "code": "CH110", "name": "Chemistry Laboratory", "credits": 3 },
+        { "code": "EE101", "name": "Basic Electronics", "credits": 8 },
+        { "code": "MA101", "name": "Mathematics - I", "credits": 8 },
+        { "code": "CE101", "name": "Engineering Drawing", "credits": 7 },
+        { "code": "PH101", "name": "Physics - I", "credits": 6 },
+        { "code": "PH110/ME110", "name": "Physics Laboratory / Workshop", "credits": 3 },
+        { "code": "HS101", "name": "English Communication", "credits": 2 }
+      ],
+      "2": [
+        { "code": "BT101", "name": "Biology", "credits": 6 },
+        { "code": "CS101", "name": "Introduction to Computing", "credits": 6 },
+        { "code": "CS110", "name": "Computing Laboratory", "credits": 3 },
+        { "code": "EE110", "name": "Basic Electronics Laboratory", "credits": 3 },
+        { "code": "MA102", "name": "Mathematics - II", "credits": 8 },
+        { "code": "ME101", "name": "Engineering Mechanics", "credits": 8 },
+        { "code": "PH102", "name": "Physics - II", "credits": 6 },
+        { "code": "PH110/ME110", "name": "Workshop / Physics Laboratory", "credits": 3 }
+      ],
+      "3": [
+        { "code": "PH201", "name": "Mathematical Physics", "credits": 6 },
+        { "code": "PH203", "name": "Classical Mechanics", "credits": 6 },
+        { "code": "PH205", "name": "Semiconductor Devices", "credits": 6 },
+        { "code": "PH207", "name": "Heat and Thermodynamics", "credits": 6 },
+        { "code": "PH209", "name": "Analog Electronics", "credits": 6 },
+        { "code": "PH211", "name": "Electronics Lab - I", "credits": 3 },
+        { "code": "EE220", "name": "Signals and Systems", "credits": 6 }
+      ],
+      "4": [
+        { "code": "PH202", "name": "Electromagnetics", "credits": 6 },
+        { "code": "PH204", "name": "Quantum Mechanics - I", "credits": 6 },
+        { "code": "PH206", "name": "Computational Physics", "credits": 6 },
+        { "code": "PH208", "name": "Digital Electronics & Microprocessors", "credits": 6 },
+        { "code": "PH210", "name": "General Physics Lab", "credits": 3 },
+        { "code": "HS1xx", "name": "HSS Elective - I Level-I", "credits": 6 },
+        { "code": "HS200", "name": "Sustainable Development Goals", "credits": 2 }
+      ],
+      "5": [
+        { "code": "PH301", "name": "Statistical Mechanics", "credits": 6 },
+        { "code": "PH303", "name": "Quantum Mechanics - II", "credits": 6 },
+        { "code": "PH305", "name": "Engineering Optics", "credits": 6 },
+        { "code": "PH307", "name": "Atomic and Molecular Spectroscopy", "credits": 6 },
+        { "code": "PH309", "name": "Electronics Lab - II", "credits": 3 },
+        { "code": "OExxx", "name": "Open Elective - I", "credits": 6 },
+        { "code": "HS1xx", "name": "HSS Elective - II Level-I", "credits": 6 }
+      ],
+      "6": [
+        { "code": "PH302", "name": "Solid State Physics", "credits": 6 },
+        { "code": "PH304", "name": "Measurement Techniques", "credits": 6 },
+        { "code": "PH306", "name": "Lasers and Ultrafast Optics", "credits": 6 },
+        { "code": "PH308", "name": "Nuclear Science and Engineering", "credits": 6 },
+        { "code": "PH310", "name": "Advanced Physics Lab", "credits": 3 },
+        { "code": "PH312", "name": "Mini Project", "credits": 3 },
+        { "code": "OExxx", "name": "Open Elective - II", "credits": 6 }
+      ],
+      "7": [
+        { "code": "PH411", "name": "Materials Science & Engineering", "credits": 6 },
+        { "code": "PH413", "name": "Nanoelectronics & Nanophotonics", "credits": 6 },
+        { "code": "PH415", "name": "Simulation Techniques in Physical Systems", "credits": 6 },
+        { "code": "PH421/PH4xxx", "name": "Project - I / Department Elective", "credits": 6 },
+        { "code": "OExxx", "name": "Open Elective - III", "credits": 6 },
+        { "code": "HS2xx", "name": "HSS Elective - I Level-II", "credits": 6 }
+      ],
+      "8": [
+        { "code": "PH4xx", "name": "Department Elective - I", "credits": 6 },
+        { "code": "PH4xx", "name": "Department Elective - II", "credits": 6 },
+        { "code": "PH4xx", "name": "Department Elective - III", "credits": 6 },
+        { "code": "PH4xx", "name": "Department Elective - IV", "credits": 6 },
+        { "code": "PH421/PH4xxx", "name": "Project - II / Department Elective", "credits": 6 },
+        { "code": "HS2xx", "name": "HSS Elective - II Level-II", "credits": 6 }
+      ]
+    },
+  
+    "MnC": {
+      "1": [
+        { "code": "CH101", "name": "Chemistry", "credits": 8 },
+        { "code": "CH110", "name": "Chemistry Laboratory", "credits": 3 },
+        { "code": "EE101", "name": "Basic Electronics", "credits": 8 },
+        { "code": "MA101", "name": "Mathematics - I", "credits": 8 },
+        { "code": "CE101", "name": "Engineering Drawing", "credits": 7 },
+        { "code": "PH101", "name": "Physics - I", "credits": 6 },
+        { "code": "PH110/ME110", "name": "Physics Laboratory / Workshop", "credits": 3 },
+        { "code": "HS101", "name": "English Communication", "credits": 2 }
+      ],
+      "2": [
+        { "code": "BT101", "name": "Introductory Biology", "credits": 6 },
+        { "code": "CS101", "name": "Introduction to Computing", "credits": 6 },
+        { "code": "CS110", "name": "Computing Laboratory", "credits": 3 },
+        { "code": "EE102", "name": "Basic Electronics Laboratory", "credits": 3 },
+        { "code": "MA102", "name": "Mathematics - II", "credits": 8 },
+        { "code": "ME101", "name": "Engineering Mechanics", "credits": 8 },
+        { "code": "PH102", "name": "Physics - II", "credits": 6 },
+        { "code": "ME110/PH110", "name": "Workshop / Physics Laboratory", "credits": 3 }
+      ],
+      "3": [
+        { "code": "MA201", "name": "Mathematics - III", "credits": 8 },
+        { "code": "MA221", "name": "Discrete Mathematics", "credits": 6 },
+        { "code": "MA222", "name": "Elementary Number Theory and Algebra", "credits": 6 },
+        { "code": "MA225", "name": "Probability Theory and Random Processes", "credits": 8 },
+        { "code": "MA251", "name": "Data Structures", "credits": 6 },
+        { "code": "CS221", "name": "Digital Design", "credits": 6 }
+      ],
+      "4": [
+        { "code": "MA224", "name": "Real Analysis", "credits": 6 },
+        { "code": "MA252", "name": "Design and Analysis of Algorithms", "credits": 6 },
+        { "code": "MA271", "name": "Financial Engineering - I", "credits": 6 },
+        { "code": "CS225", "name": "Computer Organization and Architecture", "credits": 6 },
+        { "code": "CS245", "name": "Database Management Systems", "credits": 6 },
+        { "code": "CS246", "name": "Database Management Systems Laboratory", "credits": 4 },
+        { "code": "HS1xx", "name": "HSS Elective - I Level-I", "credits": 6 },
+        { "code": "HS200", "name": "Sustainable Development Goals", "credits": 2 }
+      ],
+      "5": [
+        { "code": "MA321", "name": "Optimization", "credits": 6 },
+        { "code": "MA323", "name": "Monte Carlo Simulation", "credits": 6 },
+        { "code": "MA327", "name": "Stochastic Calculus for Finance", "credits": 6 },
+        { "code": "CS341", "name": "Computer Networks", "credits": 6 },
+        { "code": "CS342", "name": "Computer Networks Laboratory", "credits": 4 },
+        { "code": "CS343", "name": "Operating Systems", "credits": 6 },
+        { "code": "CS344", "name": "Operating Systems Laboratory", "credits": 4 },
+        { "code": "HS1xx", "name": "HSS Elective - II Level-I", "credits": 6 }
+      ],
+      "6": [
+        { "code": "MA322", "name": "Scientific Computing", "credits": 6 },
+        { "code": "MA324", "name": "Statistical Inference and Multivariate Analysis", "credits": 6 },
+        { "code": "MA351", "name": "Theory of Computation", "credits": 6 },
+        { "code": "MA373", "name": "Financial Engineering - II", "credits": 6 },
+        { "code": "MA374", "name": "Financial Engineering Laboratory", "credits": 4 },
+        { "code": "MA35x", "name": "Departmental Elective - I", "credits": 6 }
+      ],
+      "7": [
+        { "code": "MA423", "name": "Matrix Computations", "credits": 6 },
+        { "code": "MA429", "name": "Computational Finance", "credits": 6 },
+        { "code": "MA4xx", "name": "Departmental Elective - II", "credits": 6 },
+        { "code": "MA4xx", "name": "Departmental Elective - III", "credits": 6 },
+        { "code": "MA498", "name": "B Tech Project - I", "credits": 12 },
+        { "code": "HS2xx", "name": "HSS Elective - I Level-II", "credits": 6 }
+      ],
+      "8": [
+        { "code": "MA4xx", "name": "Departmental Elective - IV", "credits": 6 },
+        { "code": "MA4xx", "name": "Departmental Elective - V", "credits": 6 },
+        { "code": "CExxx", "name": "Open Elective - II", "credits": 6 },
+        { "code": "MA499", "name": "B Tech Project - II", "credits": 12 },
+        { "code": "HS2xx", "name": "HSS Elective - II Level-II", "credits": 6 }
+      ]
+    },
+  
+    "CL": {
+      "1": [
+        { "code": "CH101", "name": "Chemistry", "credits": 8 },
+        { "code": "CH110", "name": "Chemistry Laboratory", "credits": 3 },
+        { "code": "EE101", "name": "Basic Electronics", "credits": 8 },
+        { "code": "MA101", "name": "Mathematics - I", "credits": 8 },
+        { "code": "CE101", "name": "Engineering Drawing", "credits": 7 },
+        { "code": "PH101", "name": "Physics - I", "credits": 6 },
+        { "code": "PH110/ME110", "name": "Physics Laboratory / Workshop", "credits": 3 },
+        { "code": "HS101", "name": "English Communication", "credits": 2 }
+      ],
+      "2": [
+        { "code": "BT101", "name": "Introductory Biology", "credits": 6 },
+        { "code": "CS101", "name": "Introduction to Computing", "credits": 6 },
+        { "code": "CS110", "name": "Computing Laboratory", "credits": 3 },
+        { "code": "EE102", "name": "Basic Electronics Laboratory", "credits": 3 },
+        { "code": "MA102", "name": "Mathematics - II", "credits": 8 },
+        { "code": "ME101", "name": "Engineering Mechanics", "credits": 8 },
+        { "code": "PH102", "name": "Physics - II", "credits": 6 },
+        { "code": "ME110/PH110", "name": "Workshop / Physics Laboratory", "credits": 3 }
+      ],
+      "3": [
+        { "code": "MA201", "name": "Mathematics - III", "credits": 8 },
+        { "code": "ME212", "name": "Solid Mechanics - I", "credits": 6 },
+        { "code": "CL201", "name": "Chemical Process Calculations", "credits": 6 },
+        { "code": "CL202", "name": "Fluid Mechanics", "credits": 6 },
+        { "code": "CL203", "name": "Chemical Engineering Thermodynamics", "credits": 8 },
+        { "code": "CL204", "name": "Heat Transfer", "credits": 6 }
+      ],
+      "4": [
+        { "code": "CL205", "name": "Mechanical Operations", "credits": 6 },
+        { "code": "CL206", "name": "Thermodynamics II", "credits": 6 },
+        { "code": "CL207", "name": "Chemical Technology I", "credits": 6 },
+        { "code": "CL208", "name": "Chemical Engineering Materials", "credits": 6 },
+        { "code": "CL214A", "name": "Fluid Mechanics Lab", "credits": 1.5 },
+        { "code": "CL214B", "name": "Heat Transfer Lab", "credits": 1.5 },
+        { "code": "HS1xx", "name": "HSS Elective - I Level-I", "credits": 6 },
+        { "code": "HS200", "name": "Sustainable Development Goals", "credits": 2 }
+      ],
+      "5": [
+        { "code": "CL209", "name": "Mass Transfer I", "credits": 6 },
+        { "code": "CL210", "name": "Reaction Engineering I", "credits": 6 },
+        { "code": "CL211", "name": "Reaction Engineering Lab", "credits": 3 },
+        { "code": "CL212", "name": "Instrumentation & Control", "credits": 6 },
+        { "code": "CExxx", "name": "Open Elective - I", "credits": 6 },
+        { "code": "HS1xx", "name": "HSS Elective - II Level-I", "credits": 6 }
+      ],
+      "6": [
+        { "code": "CL301", "name": "Mass Transfer II", "credits": 6 },
+        { "code": "CL302", "name": "Transport Phenomena", "credits": 6 },
+        { "code": "CL303", "name": "Process Engineering & Economics", "credits": 6 },
+        { "code": "CL304", "name": "CAD in Chemical Engineering", "credits": 6 },
+        { "code": "CL305", "name": "Process Equipment Design Lab", "credits": 3 },
+        { "code": "CL306", "name": "Mass Transfer Lab", "credits": 3 },
+        { "code": "CL3xx", "name": "Departmental Elective - I", "credits": 6 }
+      ],
+      "7": [
+        { "code": "CL4xxA", "name": "Departmental Elective - II", "credits": 6 },
+        { "code": "CL4xxB", "name": "Departmental Elective - III", "credits": 6 },
+        { "code": "CL4xxC", "name": "Departmental Elective - IV", "credits": 6 },
+        { "code": "OExxx", "name": "Open Elective - II", "credits": 6 },
+        { "code": "HS2xx", "name": "HSS Elective - Level-II", "credits": 6 },
+        { "code": "CL498", "name": "B Tech Project - I", "credits": 12 }
+      ],
+      "8": [
+        { "code": "CL4xxD", "name": "Departmental Elective - V", "credits": 6 },
+        { "code": "CL4xxE", "name": "Departmental Elective - VI", "credits": 6 },
+        { "code": "CL4xxF", "name": "Departmental Elective - VII", "credits": 6 },
+        { "code": "CL499", "name": "B Tech Project - II", "credits": 12 },
+        { "code": "HS2xx", "name": "HSS Elective - II Level-II", "credits": 6 },
+        { "code": "OExxx", "name": "Open Elective - III", "credits": 6 }
+      ]
+    }
+  }
+  
