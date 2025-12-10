@@ -1,6 +1,9 @@
 import { useEffect, useMemo, useState } from 'react';
 import coursesData from './data/courses.json';
 
+// Debug: Check if coursesData loaded
+console.log('Courses data loaded:', Object.keys(coursesData || {}));
+
 const gradePoints = {
   AA: 10,
   AB: 9,
@@ -15,6 +18,18 @@ const gradePoints = {
 const gradeOptions = Object.keys(gradePoints);
 
 export default function App() {
+  // Safety check
+  if (!coursesData || typeof coursesData !== 'object' || Object.keys(coursesData).length === 0) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-slate-50 p-4">
+        <div className="bg-white rounded-lg shadow-lg p-8 max-w-md">
+          <h1 className="text-2xl font-bold text-red-600 mb-4">Error Loading Courses Data</h1>
+          <p className="text-gray-700">Courses data is not available. Please check the console for details.</p>
+        </div>
+      </div>
+    );
+  }
+
   const branches = useMemo(() => Object.keys(coursesData), []);
   const [branch, setBranch] = useState(branches[0] || '');
   const semesters = useMemo(
